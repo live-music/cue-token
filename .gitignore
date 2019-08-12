@@ -1,0 +1,35 @@
+node_modules
+app.db
+chaindata
+genesis.json
+loom
+
+# If you want to versioning build files (and it is recommended) you should remove or comment the line below
+src/contracts
+
+/rinkeby_private_key
+/rinkeby_account
+/rinkeby_mnemonic
+/extdev_private_key
+/extdev_public_key
+.DS_Store
+
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
